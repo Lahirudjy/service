@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign in"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_margin="10dp"
+        android:layout_marginStart="1"
+        android:layout_marginTop="1"
+        android:layout_marginEnd="1"
+        android:layout_marginBottom="1"
+        android:gravity="left"
+        android:text="Username"
+        android:padding="28dp"
+        android:textColor="@color/purple_700"
+        android:Gravity="left"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:layout_margin="10dp"
+        android:layout_marginStart="1"
+        android:layout_marginTop="1"
+        android:layout_marginEnd="1"
+        android:layout_marginBottom="1"
+        android:gravity="left"
+        android:text="Password"
+        android:padding="28dp"
+        android:textColor="@color/purple_700"
+        android:Gravity="left"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbutton"
+        android:layout_below="@+id/password"
+        android:text="Login"
+        layout android:layout_centerHorizontal="true"
+        android:layout_margin="28dp"
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/forgotpassword"
+    android:layout_below="@id/loginbutton"
+    android:text="forgot password"
+    android:textColor="@color/purple_700"
+    layout android:layout_centerHorizontal="true"
+    android:layout_margin="28dp"
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
